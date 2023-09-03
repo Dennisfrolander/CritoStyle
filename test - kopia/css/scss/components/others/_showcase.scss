@@ -1,0 +1,65 @@
+@import '../../core/mixins';
+
+.showcase {
+    padding-top: 60px;
+    background-color: #f0EFE9;
+
+    @include sm {
+        padding: 60px 0px;
+    }
+
+    
+
+    @include md {
+        padding: 60px 0px;
+    }
+
+    .showcase-info {
+        h1 {
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 1.2;
+            @include sm {
+                font-size: 30px;
+            }
+
+            @include md {
+                font-size: 50px;
+            }
+
+            @include lg {
+                font-size: 80px;
+            }
+        }
+        h2 {
+            font-size: 18px;
+            padding: 40px 0px;
+            opacity: 0.6;
+
+            @include sm {
+                font-size: 18px;
+                padding: 40px 20px;
+            }
+        }
+
+        .showcase-buttons {
+            a {
+                @include sm {
+                    margin: 0;
+                }
+                
+            }
+        }
+    }
+    
+
+    img {
+        width: 100%;
+        height: auto;
+        display: none;
+        @include xl {
+            display: block;
+        }
+
+    }
+}

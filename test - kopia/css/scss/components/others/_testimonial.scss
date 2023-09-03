@@ -1,0 +1,61 @@
+@import '../../core/mixins';
+
+
+.testimonial {
+    background-color: #EDCF87;
+
+    @include sm {
+        background-color: white;
+    }
+    .container {
+        padding: 75px;
+
+        @include sm {
+            padding: 10px;
+            background-color: white;
+        }
+        background-color: white;
+        
+        .stars {
+            padding: 20px 0px;
+            i {
+                color: #FA714A;
+            }
+        }
+
+        .comments {
+            line-height: 1.9;
+            color: rgb(0, 0, 0, 0.7);
+            padding-bottom: 20px;
+        }
+
+        .commented-by {
+            @include sm {
+                border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+                padding-bottom: 10px;
+            }
+            @include md {
+                border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+                padding-bottom: 10px;
+            }
+            
+            @include xl {
+                border: none;
+            }
+            
+            h3 {
+                font-size: 18px;
+                font-weight: 700;
+                padding-left: 25px;
+            }
+
+            h4 {
+                color: #FA714A;
+                font-size: 13px;
+                padding-left: 25px;
+            }
+        }
+    }
+
+
+}

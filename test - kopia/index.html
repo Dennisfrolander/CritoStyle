@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Tutorial" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/41c8b474e2.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <link href="css/style.min.css" rel="stylesheet" />
+        <title>Crito Agency</title>
+    </head>
+    <body>
+        <!--Header-->
+        <header>
+            <section class="section-for-navbar py-3">
+                <div class="container d-flex align-items-center justify-content-between">
+                    <a href="index.html" class="header-logo me-5"
+                        ><img src="./images/Logo.png" alt="logo"
+                    /></a>
+                    <div class="toggle d-lg-none">
+                        <button class="btn-toggle btn-outline-white" data-option="toggle" data-target="#test">
+                            <i id="icon" class="fa-regular fa-bars"></i>
+                        </button>
+                    </div>
+                    <nav class="w-100 d-lg-block d-none">
+                        <div class="first-line d-flex justify-content-between">
+                            <div class="info-about-company">
+                                <span
+                                    ><i class="fa-regular fa-phone-volume"></i
+                                    >+46 (a) 121 470 50</span
+                                >
+                                <span
+                                    ><i class="fa-regular fa-envelope"></i
+                                    >info@crito.com</span
+                                >
+                                <span
+                                    ><i
+                                        class="fa-sharp fa-regular fa-location-dot"
+                                    ></i
+                                    >Sveavägen 31, 111 34 Stockholm</span
+                                >
+                            </div>
+                            <div class="social-media">
+                                <a href="#"
+                                    ><i class="fa-brands fa-facebook"></i
+                                ></a>
+                                <a href="#"
+                                    ><i class="fa-brands fa-twitter"></i
+                                ></a>
+                                <a href="#"
+                                    ><i class="fa-brands fa-instagram"></i
+                                ></a>
+                                <a href="#"
+                                    ><i class="fa-brands fa-linkedin"></i
+                                ></a>
+                            </div>
+                        </div>
+                        <div
+                            class="second-line d-flex align-items-center justify-content-between"
+                        >
+                            <div class="navbar">
+                                <a href="./index.html">Home</a>
+                                <a href="#">Service</a>
+                                <a href="./news.html">News</a>
+                                <a href="./contact.html">Contact</a>
+                            </div>
+                            <div class="sign-in">
+                                <a href="#" class="yellow-button-anchor"
+                                    >Login
+                                    <i class="fa-solid fa-arrow-up-right"></i
+                                ></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <nav id="test" class="container-fluid d-lg-none hamburger-menu">
+                    <div class="d-flex flex-column text-center">
+                        <a class="my-1 py-1" href="./index.html">Home</a>
+                        <a class="my-1 py-1" href="#">Service</a>
+                        <a class="my-1 py-1" href="./news.html">News</a>
+                        <a class="my-1 py-1" href="./contact.html">Contact</a>
+                    </div>
+                </nav>
+            </section>
+        </header>
+        <main>
+            <!--Showcase-->
+            <section class="showcase">
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-12 col-xl-7 showcase-info">
+                            <h1 class="text-center text-md-start">We Provide the Best business solutions</h1>
+                            <h2>
+                                Establish your vision and value proposition and
+                                turn them into tastable prototypes
+                            </h2>
+                            <div class="showcase-buttons row flex-row justify-content-evenly justify-content-xl-start">
+                                <a href="#" class="yellow-button-anchor col-5 col-xl-4 text-center"
+                                    >Get Consulting
+                                    <i class="fa-solid fa-arrow-up-right"></i
+                                ></a>
+                                <a href="#" class="blackline-button-anchor col-5 text-center col-xl-4 ms-xl-3"
+                                    >Learn More
+                                    <i class="fa-solid fa-arrow-up-right"></i
+                                ></a>
+                            </div>
+                        </div>
+                        <div class="col-1 col-md-5">
+                            <img
+                                src="./images/showcaseimage.png"
+                                alt="Showcase Image"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Company Logos-->
+            <section class="company-logos p-5">
+                <div class="container">
+                    <div class="row d-flex justify-content-center justify-content-md-between">
+                        <div class="col-4 py-3 col-md-2">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/svg/paperz.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="col-4 py-3 col-md-2">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/svg/dorfus.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="col-4 py-3 col-md-2">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/svg/martino.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="col-4 py-3 col-md-2">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/svg/square.svg"
+                                alt=""
+                            />
+                        </div>
+                        <div class="col-4 py-3 col-md-2">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/svg/gobona.svg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Features-->
+            <section class="features">
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-12 col-xl-4">
+                            <h1 class="title-orange">Features</h1>
+                            <h2 class="ingress">
+                                Our Acounting is trusted by thousand of
+                                companies
+                            </h2>
+
+                            <a href="#" class="yellow-button-anchor"
+                                >Learn More
+                                <i class="fa-solid fa-arrow-up-right"></i
+                            ></a>
+                        </div>
+                        <div class="col-12 col-xl-7">
+                            <div class="row d-flex justify-content-between">
+                                <div class="col-5 col-md-6">
+                                    <i class="fa-regular fa-handshake"></i>
+                                    <h3 class="small-title">Business Advice</h3>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-5 col-md-6">
+                                    <i class="fa-regular fa-lightbulb"></i>
+                                    <h3 class="small-title">
+                                        Startup business
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-5 col-md-6">
+                                    <i class="fa-duotone fa-coins"></i>
+                                    <h3 class="small-title">Finacial Advice</h3>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-5 col-md-6">
+                                    <i class="fa-solid fa-gift"></i>
+                                    <h3 class="small-title">Risk Management</h3>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <a href="" class="button-for-small-screen">Learn More
+                            <i class="fa-solid fa-arrow-up-right"></i
+                        ></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--About Company-->
+            <section class="about-company">
+                <div class="container">
+                    <div class="row d-flex justify-content-evenly">
+                        <div class="col-lg-4 img-container">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/Image (1).png"
+                                alt="Woman holding a laptop"
+                            />
+                            <div class="text-over-picture">
+                                <h3>Samantha Brown, <span>Founder</span></h3>
+                                <p>
+                                    "Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit."
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-5 info-container">
+                            <h1 class="title-orange">About Company</h1>
+                            <h2 class="ingress">
+                                We are Business Consulting & Credit Repair
+                                Experts
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Molestias quibusdam corrupti,
+                                eveniet eaque sequi ipsa neque labore eum
+                                doloremque. Repellat?
+                            </p>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Deserunt rerum est, id
+                                molestias laudantium cumque incidunt voluptates
+                                excepturi fugit? Laborum, sequi velit.
+                            </p>
+                            <div class="buttons">
+                                <a href="#"
+                                    >Learn More
+                                    <i class="fa-solid fa-arrow-up-right"></i
+                                ></a>
+                                <button>
+                                    <i class="fa-solid fa-play"></i>
+                                    <span>Intro Video</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Our Services-->
+            <section class="our-services">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="col-12 col-xl-4 pb-5">
+                                <h1 class="title-orange">Our Services</h1>
+                                <h2 class="ingress">
+                                    We Provide The Best Service For Consulting
+                                </h2>
+                            </div>
+                            <div class="row d-flex justify-content-xl-between justify-content-evenly">
+                                <div class="business-card">
+                                    <h3>Business Advice</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Voluptate ab rem
+                                        similique, voluptatibus eligendi dicta
+                                        tempore! Aut dignissimos blanditiis
+                                        quam!
+                                    </p>
+                                    <a class="round-black-button-anchor"
+                                        ><i class="fa-solid fa-arrow-right"></i
+                                    ></a>
+                                </div>
+                                <div class="business-card">
+                                    <h3>Business Advice</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Voluptate ab rem
+                                        similique, voluptatibus eligendi dicta
+                                        tempore! Aut dignissimos blanditiis
+                                        quam!
+                                    </p>
+                                    <a class="round-black-button-anchor"
+                                        ><i class="fa-solid fa-arrow-right"></i
+                                    ></a>
+                                </div>
+                                <div class="business-card">
+                                    <h3>Business Advice</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Voluptate ab rem
+                                        similique, voluptatibus eligendi dicta
+                                        tempore! Aut dignissimos blanditiis
+                                        quam!
+                                    </p>
+                                    <a class="round-black-button-anchor"
+                                        ><i class="fa-solid fa-arrow-right"></i
+                                    ></a>
+                                </div>
+                                <div class="business-card">
+                                    <h3>Business Advice</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Voluptate ab rem
+                                        similique, voluptatibus eligendi dicta
+                                        tempore! Aut dignissimos blanditiis
+                                        quam!
+                                    </p>
+                                    <a class="round-black-button-anchor"
+                                        ><i class="fa-solid fa-arrow-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-5 text-center">
+                        <a class="blackline-button-anchor" href="#"
+                            >Browse Services
+                            <i class="fa-solid fa-arrow-up-right"></i
+                        ></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--Why choose us-->
+            <section class="choose-us">
+                <div class="container">
+                    <div
+                        class="row d-flex align-items-center justify-content-evenly"
+                    >
+                        <div class="col-12 col-lg-4">
+                            <h1 class="title-orange">Why Choose Us</h1>
+                            <h2 class="ingress">
+                                Why We are The best Business Consulting Agency
+                            </h2>
+                            <div>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-thumbs-up"></i>
+                                    </div>
+                                    <div class="col-10 ms-4">
+                                        <h3>Process Excellence</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-map"></i>
+                                    </div>
+                                    <div class="col-10 ms-4">
+                                        <h3>Strategic Planning</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-1">
+                                        <i
+                                            class="fa-solid fa-hourglass-start"
+                                        ></i>
+                                    </div>
+                                    <div class="col-10 ms-4">
+                                        <h3>Experience Design</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur.
+                                        </p>
+                                    </div>
+                                    <div class="col-1">
+                                        <i class="fa-solid fa-brain"></i>
+                                    </div>
+                                    <div class="col-10 ms-4">
+                                        <h3>Artificial Intelligence</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet
+                                            consectetur.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-none d-lg-block">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/amy-hirschi-K0c8ko3e6AA-unsplash.jpg"
+                                alt="People talking"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Project And Case Studies-->
+            <section class="project-case-studies my-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center py-5">
+                            <h1 class="title-orange">
+                                Projects & Case Studies
+                            </h1>
+                            <h2 class="ingress">
+                                Let's Looks Our Global Projects
+                            </h2>
+                        </div>
+                        <div
+                            class="row d-flex justify-content-between py-3 m-0 business-cards"
+                        >
+                            <div class="col-6 pb-5">
+                                <img
+                                    src="./images/business.jpg"
+                                    alt="Newspaper"
+                                />
+                                <div class="business-card-info">
+                                    <h3>
+                                        Grow your business
+                                    </h3>
+                                    <a href="#"
+                                        >Read More
+                                        <i class="fa-solid fa-arrow-up-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div class="col-6 pb-5">
+                                <img
+                                    src="./images/marek-levak-zANXcXyByos-unsplash.jpg"
+                                    alt="Electronics"
+                                />
+                                <div class="business-card-info">
+                                    <h3>
+                                        Why your client needs a responsive website
+                                    </h3>
+                                    <a href="#"
+                                        >Read More
+                                        <i class="fa-solid fa-arrow-up-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div class="col-6 pb-5">
+                                <img
+                                    src="./images/oli-dale-xjSkI_seiZY-unsplash.jpg"
+                                    alt="Papper and coffee mug"
+                                />
+                                <div class="business-card-info">
+                                    <h3>
+                                        Eduvate your employees ro get better results
+                                    </h3>
+                                    <a href="#"
+                                        >Read More
+                                        <i class="fa-solid fa-arrow-up-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                            <div class="col-6 pb-5">
+                                <img
+                                    src="./images/carlos-muza-hpjSkU2UYSU-unsplash.jpg"
+                                    alt="Laptop"
+                                />
+                                <div class="business-card-info">
+                                    <h3>
+                                        Business Insights is a important piece of
+                                        your business
+                                    </h3>
+                                    <a href="#"
+                                        >Read More
+                                        <i class="fa-solid fa-arrow-up-right"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-center pb-5">
+                            <a class="all-black-button-anchor" href="#"
+                                >All Recent Projects<i
+                                    class="fa-solid fa-arrow-up-right"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Meet Our Team-->
+            <section class="our-team py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1 class="title-orange">Meet Our Team</h1>
+                        </div>
+                    </div>
+                    <div
+                        class="row d-flex justify-content-between align-items-center"
+                    >
+                        <div class="col-6 col-md-5">
+                            <h2 class="ingress">Experience Team Members</h2>
+                        </div>
+                        <div class="col-5 col-md-3 text-end">
+                            <a href="" class="blackline-button-anchor"
+                                >Browse Team
+                                <i class="fa-solid fa-arrow-up-right"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-3">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/Kristine.png"
+                                alt=""
+                            />
+                            <h3>Kristine Palmer</h3>
+                            <h4>Chef Operation Officer</h4>
+                        </div>
+                        <div class="col-3">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/Mark.png"
+                                alt=""
+                            />
+                            <h3>Mark Aubri</h3>
+                            <h4>Senior Consultant</h4>
+                        </div>
+                        <div class="col-3">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/Kimberly.png"
+                                alt=""
+                            />
+                            <h3>Kimberly Hansen</h3>
+                            <h4>Senior Consultant</h4>
+                        </div>
+                        <div class="col-3">
+                            <img
+                                class="w-100 h-auto"
+                                src="./images/Justin.png"
+                                alt=""
+                            />
+                            <h3>Justin Willoman</h3>
+                            <h4>Senior Tech Consultant</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Testimonial-->
+            <section class="testimonial py-5">
+                <div class="container">
+                    <div class="row text-center pb-5">
+                        <h1 class="title-orange">Testimonial</h1>
+                        <h2 class="ingress">What Our Client Says</h2>
+                    </div>
+                    <div class="row pb-5">
+                        <div class="col-12 col-xl-4 pb-4 px-lg-5">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="comments">
+                                "Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Molestias, repellendus amet!
+                                Amet nobis delectus numquam veritatis omnis
+                                suscipit aliquam molestiae quo ad hic."
+                            </p>
+                            <div class="commented-by">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img
+                                            height="50px"
+                                            width="50px"
+                                            class="rounded-circle"
+                                            src="./images/Cassandra.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="col-9">
+                                        <h3>Cassandra Warren</h3>
+                                        <h4>Business Manager, Dorfus</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-4 pb-4 px-lg-5">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="comments">
+                                "Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Molestias, repellendus amet!
+                                Amet nobis delectus numquam veritatis omnis
+                                suscipit aliquam molestiae quo ad hic."
+                            </p>
+                            <div class="commented-by">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img
+                                            height="50px"
+                                            width="50px"
+                                            class="rounded-circle"
+                                            src="./images/Amanda.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="col-9">
+                                        <h3>Amanda</h3>
+                                        <h4>Senior Developer, Square</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-4 pb-4 px-lg-5">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="comments">
+                                "Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Molestias, repellendus amet!
+                                Amet nobis delectus numquam veritatis omnis
+                                suscipit aliquam molestiae quo ad hic."
+                            </p>
+                            <div class="commented-by">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img
+                                            height="50px"
+                                            width="50px"
+                                            class="rounded-circle"
+                                            src="./images/Jack.jpg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="col-9">
+                                        <h3>Jack McDogglas</h3>
+                                        <h4>Key Account Manager, Gobona</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center p-md-5">
+                        <a class="all-black-button-anchor" href="#"
+                            >All Recent Projects<i
+                                class="fa-solid fa-arrow-up-right"
+                            ></i
+                        ></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--Article & News-->
+            <section class="article-and-news py-5">
+                <div class="container">
+                    <h1 class="title-orange">Article & News</h1>
+                    <div
+                        class="row d-flex align-items-center pb-5"
+                    >
+                        <h2 class="ingress col-md-8">
+                            Get Every Single Articles & News
+                        </h2>
+                        <div class="col-md-4 d-none d-md-block text-md-end">
+                            <a class="blackline-button-anchor" href=""
+                                >Browse Articles
+                                <i class="fa-solid fa-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-4 news-card">
+                            <div class="img-container">
+                                <img
+                                    src="./images/linkedin-sales-solutions-Mis5fyJi7Q0-unsplash.jpg"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="card-info d-flex flex-column justify-content-between">
+                                <h3>Business</h3>
+                                    <h4>
+                                        How To Use Digtalization in The Classrom
+                                    </h4>
+
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Quisquam maiores assumenda
+                                        recusandae.
+                                    </p>
+                            </div>
+                        </div>
+                        <div class="col-4 news-card">
+                            <div class="img-container">
+                                <img
+                                    src="./images/emiliano-vittoriosi-vEN1bsdSjxM-unsplash.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="card-info d-flex flex-column justify-content-between">
+                                <h3>Business</h3>
+                                <h4>
+                                    How To Implement Chat GPT in Your Projects
+                                </h4>
+
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Quisquam maiores assumenda
+                                    recusandae.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-4 news-card">
+                            <div class="img-container">
+                                <img
+                                    src="./images/kobu-agency-ipARHaxETRk-unsplash.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="card-info d-flex flex-column justify-content-between">
+                                <h3>Business</h3>
+                                <h4>The Guide To Support Modern CSS Design</h4>
+
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur
+                                    adipisicing elit. Quisquam maiores assumenda
+                                    recusandae.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--News Update SignUp-->
+            <section class="news-signup">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-12 col-md-5 col-lg-6">
+                            <h1>Get News Updates By Signup</h1>
+                        </div>
+                        <div class="col-12 col-md-4 text-md-end text-center">
+                            <input class="py-2 px-5 rounded-5 border-0" type="text" placeholder="YourEmail@domain.com"/>
+                        </div>
+                        <div class="col-12 my-3 my-md-0 text-center text-md-start col-md-3 col-lg-2">
+                            <button class="yellow-button-anchor border-0">
+                                Subscribe <i class="fa-solid fa-arrow-up-right"></i
+                                    >
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--Footer-->
+        <footer>
+            <section class="section-for-footer">
+                <div
+                    class="container d-flex flex-column justify-content-center"
+                >
+                    <div class="footer-start row d-flex">
+                        <div class="pe-5 col-md-12 col-lg-4">
+                            <img src="./images/Logowhitetext.png" alt="Logo" />
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Voluptatem quo non voluptate
+                                rem fugiat rerum eum! Nisi quibusdam pariatur
+                                numquam? Consequuntur nam iste cum maiores error
+                                deserunt, tempora ipsum voluptates.
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <h2>Company</h2>
+                            <a href="#">About</a>
+                            <a href="#">Features</a>
+                            <a href="#">Works</a>
+                            <a href="#">Career</a>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <h2>Help</h2>
+                            <a href="#">Customer Support</a>
+                            <a href="#">Delivery Details</a>
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">Privacy Policy</a>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <h2>Recources</h2>
+                            <a href="#">Free Ebooks</a>
+                            <a href="#">Development Tutorial</a>
+                            <a href="#">How to - Blog</a>
+                            <a href="#">Youtube Playlist</a>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2">
+                            <h2>Link</h2>
+                            <a href="#">How to - Blog</a>
+                            <a href="#">Youtube Playlist</a>
+                            <a href="#">Free Ebooks</a>
+                            <a href="#">Development Tutorial</a>
+                        </div>
+                    </div>
+                    <div
+                        class="footer-end d-flex align-items-center justify-content-between"
+                    >
+                        <div class="rights-reserved">
+                            &copy; 2023 Crito - Consulting Company Inc. All
+                            Right Reserved.
+                        </div>
+                        <div class="footer-social-media">
+                            <a href="#"
+                                ><i class="fa-brands fa-facebook"></i
+                            ></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"
+                                ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                            <a href="#"
+                                ><i class="fa-brands fa-linkedin"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <script defer src="./js/site.js"></script>
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

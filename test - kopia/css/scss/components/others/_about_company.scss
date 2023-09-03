@@ -1,0 +1,95 @@
+.about-company {
+    padding: 80px 0px;
+
+    .container {
+        
+        .row {
+            .img-container {
+                img {
+                    display: none;
+
+                    @include lg {
+                        display: block;
+                    }
+                }
+                position: relative;
+                .text-over-picture {
+                    height: auto;
+                    background-color: #BEEBFF;
+                    width: 60%;
+                    padding: 20px;
+                    position: absolute;
+                    left: -2%;
+                    bottom: 5%;
+                    display: none;
+                    @include lg {
+                        display: block;
+                    }
+                }
+                span {
+                    color: #FB7A56;
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                h3 {
+                    font-size: 16px;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: 13px;
+                    color: rgb(10, 10, 10, 0.6);
+                }
+
+            }
+
+            .info-container {
+                .ingress {
+                    margin-bottom: 15px;
+                }
+                p {
+                    padding: 10px 0px;
+                    color: rgb(10, 10, 10, 0.6);
+                    font-size: 14px;
+                }
+                .buttons {
+                    margin-top: 30px;
+                    font-size: 14px;
+                    font-weight: 800;
+
+                    a{
+                        font-size: 12px;
+                        text-decoration: none;
+                        color: white;
+                        background-color: black;
+                        padding: 13px;
+                        border-radius: 25px;
+                        margin-right: 20px;
+                        &:hover {
+                            opacity: 0.5;
+                            
+                        }
+                    }
+                    button {
+                        background-color: white;
+                        border: none;
+                        font-weight: 800;
+                        &:hover {
+                            opacity: 0.6;
+                        }
+
+                        i {
+                            border: 2px solid black;
+                            padding: 10px 12px;
+                            border-radius: 50%;
+                        }
+
+                        span {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

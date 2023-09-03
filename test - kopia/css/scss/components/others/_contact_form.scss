@@ -1,0 +1,50 @@
+@import '../../core/mixins';
+
+.contact-us-form {
+    padding: 30px 0px 0px 0px;
+    @include lg {
+        padding: 30px 0px 60px 0px;
+    }
+    .container {
+        background-color: #F0EFE9;
+        padding: 10px;
+
+        @include lg {
+            padding: 80px;
+        }
+        h2 {
+            padding-top: 20px;
+            font-weight: 700;
+            font-size: 25px;
+            text-align: center;
+            @include lg {
+                font-size: 36px;
+            }
+        }
+
+        input {
+            border-radius: 25px;
+            border: none;
+
+            @include lg {
+                padding: 15px;
+                border-radius: 25px;
+            }
+        }
+
+        textarea {
+            border-radius: 25px;
+            border: none;
+            resize: none;
+
+            @include lg {
+                padding: 15px;
+                border-radius: 25px;
+            }
+        }
+
+        button {
+            border: none;
+        }
+    }
+}

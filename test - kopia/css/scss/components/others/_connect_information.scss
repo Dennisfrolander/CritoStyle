@@ -1,0 +1,36 @@
+@import '../../core/mixins';
+
+.connect-information {
+    padding: 0px;
+
+    @include xl {
+        padding: 60px 0px 40px 0px;
+    }
+    .text-information {
+        padding: 10px;
+
+        @include xl {
+            padding: 30px 0px;
+            border: 1px solid rgb(0, 0, 0, 0.2);
+        }
+        i {
+            font-size: 25px;
+            @include xl {
+                font-size: 50px;
+            }
+        }
+        h2 {
+            font-size: 16px;
+            @include xl {
+                font-size: 24px;
+            }
+        }
+        p {
+            font-size: 8px;
+            margin: 3px 0px;
+            @include xl {
+                font-size: 14px;
+            }
+        }
+    }
+}

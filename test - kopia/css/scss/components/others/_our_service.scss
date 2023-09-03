@@ -1,0 +1,67 @@
+@import '../../core/mixins';
+
+.our-services {
+    padding: 60px 0px;
+    margin: 0;
+    background-color: #f0EFE9;
+
+    .blackline-button-anchor {
+        border: 1px solid black;
+        font-weight: 600;
+    }
+    .container {
+        .row {
+            .business-card {
+                background-color: white;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                h3 {
+                    font-size: 20px;
+                    margin-top: 30px
+                }
+                p {
+                    font-size: 14px;
+                    margin-bottom: 30px;
+                    color: rgb(10, 10, 10, 0.6);
+                }
+                
+                @include md {
+                    width: 40%;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                }
+                
+                @include xl {
+                    width: 22%;
+                    padding: 30px;
+                }
+
+                @include sm {
+                    width: 45%;
+                    padding: 20px;
+                    margin-bottom: 20px;
+
+                    a{
+                        padding: 5px 10px;
+                    }
+                }
+
+                &:hover {
+                    background-color: #F9D783;
+                    cursor: pointer;
+
+                    i{
+                        color: black;
+                    }
+                    a{
+                        background-color: white;
+                    }
+                }
+
+                .round-black-button-anchor {
+                    float: right;
+                }
+
+            }
+        }
+    }
+}

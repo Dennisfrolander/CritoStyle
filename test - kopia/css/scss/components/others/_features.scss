@@ -1,0 +1,60 @@
+@import '../../core/mixins';
+
+.features {
+    .container {
+        .button-for-small-screen {
+            padding: 10px 18px;
+            border-radius: 25px;
+            text-decoration: none;
+            color: black;
+            background-color: #F9D783;
+        
+            &:hover {
+                opacity: 0.7;
+            }
+            @include xl {
+                display: none;
+            }
+
+            @include sm {
+                display: inline;
+            }
+
+        }
+        border: 1px solid rgb(197, 193, 193, 0.5);
+        padding: 40px;
+        .row {
+            div {
+                padding: 15px 40px;
+
+                @include sm {
+                    padding: 10px;
+                }
+
+                i{
+                    padding: 15px 0px;
+                    font-size: 20px;
+                }
+            }
+            .small-title {
+                font-size: 20px;
+            }
+            p{
+                font-size: 14px;
+                color: rgb(10, 10, 10, 0.6);
+            }
+
+            .yellow-button-anchor {
+                @include xl {
+                    display: block;
+                }
+                display: none;
+            
+                margin-top: 40px;
+                padding: 0px 5px;
+                text-align: center;
+            }
+
+        }
+    }
+}
